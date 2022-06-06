@@ -1,0 +1,151 @@
+body {
+	background-image: url(b.jpg);
+	margin: auto;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+.container {
+	width: 960px;
+	margin: auto;
+	background-color: transparent;
+	background: rgba(0, 0, 0, 0.62);
+	position: unset;
+
+
+}
+.menu {
+	font-family: tahoma;
+	font-weight: bold;
+	height: 70px;
+	width: 960px;
+	border-radius: 5px;
+	right: 960;
+	left: 960;
+	position: fixed;
+	z-index: 1030;
+	font-size: 18px;
+	background: transparent;
+	background-color:orange;
+	}
+
+label {
+	font-family: comic sans ms;
+	font-size: 20pt;
+	color: white;
+	margin: 10px;
+	padding: 5px;
+	float: left;
+}
+
+.menu ul {
+	margin: 0px;
+	padding: 5px;
+	background: none;
+	display: block;
+	float: right;
+}
+
+.menu ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.menu ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 20px;
+	color: #ddd;
+}
+
+.main {
+	display: flex;
+	position: static;
+	width: 960px;
+	text-align: center;
+
+
+}
+
+.maintk {
+	width: 600px;
+	padding: 20px;
+}
+
+.maingambar img {
+	width: 300px;
+	padding: 0px;
+	height: 320px;
+}
+
+.header {
+	text-align: center;
+}
+
+.main2 {
+	display: flex;
+	position: static;
+	width: 960px;
+	text-align: center;
+	background-color: transparent;
+	background: rgba(0, 0, 0, 0.62);
+}
+
+.mainvmgambar img {
+	width:300px;
+	padding: 0px;
+	
+}
+
+.mainvm {
+	width: 600px;
+	padding: 20px;
+}
+
+button {
+	width: 200px;
+	height: 50px;
+	font-size:20px;
+	font-family:arial;
+	background-color: orange;
+	border-color: black;
+}
+
+.main3 {
+	text-align-last: center;
+}
+
+.copyright {
+	text-align: center;
+	font-family: tahoma;
+	font-weight: bold;
+	height: 30px;
+	width: 100%;
+	border-radius: 5px;
+	font-size: 18px;
+	background: transparent;
+	background-color:orange;
+	color: black;
+	}
+
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+INI ADALAH CLEARFIX	
+ */
+.cf {
+    *zoom: 1;
+}
